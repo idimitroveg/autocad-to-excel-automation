@@ -6,14 +6,14 @@ Python tool that converts .xls file data exported from AutoCAD exports into stru
 This project automates the extraction of .xls file data from AutoCAD drawings and converts it into structured Excel files for engineering workflows.
 
 ##  Problem
-Manual extraction of data from AutoCAD is:
+Manual counting rebars on the drawing and calculating their count and the weight, which have to be present on each drawing as a table:
 - Time-consuming
 - Error-prone
 - Inefficient for large projects
 
 ##  Solution
 A Python-based tool that:
-- Reads exported AutoCAD text data
+- Reads exported AutoCAD .xls file data
 - Processes and structures it
 - Outputs clean Excel files ready for engineering use
 
@@ -24,8 +24,11 @@ A Python-based tool that:
 
 ## ▶️ How to Use
 
-1. Export text data from AutoCAD
-2. Place file in `example_input/`
+1. From the Annotate menu in AutoCAD select Extract data
+![Example Output](images/Extract_Data_AC.png)
+2. Then slect the objects from whitch you want to extract information.
+3. Choose the objects(Text) and the their Value to be exported.
+2. Place the exported .xls file in `example_input/`
 3. Run:
 
 ```bash
