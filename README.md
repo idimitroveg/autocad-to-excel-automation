@@ -15,7 +15,7 @@ Manual counting rebars on the drawing and calculating their count and the weight
 A Python-based tool that:
 - Reads exported AutoCAD .xls file data
 - Processes and structures it
-- Outputs clean Excel files ready for engineering use
+- Outputs clean Excel files ready for engineering use or adding to the drawings
 
 ##  Technologies
 - Python
@@ -32,4 +32,4 @@ A Python-based tool that:
 3. Run:
 
 ```bash
-python src/main.py
+python Autocad_to_Excel.ipynb
